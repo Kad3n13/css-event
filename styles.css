@@ -1,0 +1,76 @@
+body {
+  padding: 50px 0;
+  margin: 0 auto;
+  width: 80vw;
+  min-height: calc(100vh - 100px);
+  background: #173864; /* Deep blue background */
+  color: #9bb7d3; /* Light text */
+  font-family: monospace; /* Monospace to go with image */
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #628db1; /* Light blue border */
+}
+
+img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+  padding: 5px;
+  background: #000000; /* Slightly lighter dark blue */
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: #d8dde6; /* Highlight color */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 20px;
+}
+
+section {
+  width: 80%;
+  margin: 0 auto;
+  background: #000000; /* Slightly lighter dark blue */
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  border: 1px solid #628db1; /* Light blue border */
+}
+
+h2 {
+  color: #d8dde6; /* Highlight color */
+  margin-bottom: 1rem;
+}
+
+hr {
+  width: 80%;
+  margin: 1rem auto;
+  border: 1px solid #9bb7d3; /* Light blue line */
+}
+
+/* Additional tweaks */
+section p {
+  color: #9bb7d3; /* Light text */
+}
+
+section:hover {
+  border-color: #d8dde6; /* Highlight on hover */
+  transition: border-color 0.3s ease;
+}
+
+img:hover {
+  border-color: #d8dde6;
+  transition: border-color 0.3s ease;
+}
